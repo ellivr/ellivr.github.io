@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-permalink: 1
+permalink: helloworld
 ---
 
 When you are new at something, always start it with the legendary "Hello World"!
