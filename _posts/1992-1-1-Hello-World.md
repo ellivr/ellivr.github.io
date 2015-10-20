@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-permalink: /:year/:month/:day/:title/
+permalink: testpermalink
 ---
 
 When you are new at something, always start it with the legendary "Hello World"!
