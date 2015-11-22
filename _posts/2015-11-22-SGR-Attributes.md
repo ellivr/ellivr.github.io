@@ -1,21 +1,19 @@
 ---
 layout: post
 title: SGR Attributes
+tag: sgr
 ---
-
-# SGR: Attributes
-
 List of attributes:
-  - **Mind** : Affect mental attack you do to the enemy.
-  - **Strength** : Affect physical attack you do to the enemy.
-  - **Vigour** : Affect your maximum Health. 
-  - **Endurance** : Affect how many stamina you regenerate per tick.
-  - **Reasoning** : Affect mental defense. Mental defense reduces mental damage you receive from enemy.
-  - **Resolve** : Affect physical defense. Physical defense reduces physical damage you receive from enemy.
-  - **Determination** : General purpose defense. Reduces both mental and physical damage.
-  - **Perception** : Critical Hit Chance of your attacks.
-  - **Reflex** : Reduces Critical Hit Chance of enemy attacks.
-  - **Luck** : Affect Critical Hit damage and Escape chance.
+- **Mind** : Affect mental attack you do to the enemy.
+- **Strength** : Affect physical attack you do to the enemy.
+- **Vigour** : Affect your maximum Health. 
+- **Endurance** : Affect how many stamina you regenerate per tick.
+- **Reasoning** : Affect mental defense. Mental defense reduces mental damage you receive from enemy.
+- **Resolve** : Affect physical defense. Physical defense reduces physical damage you receive from enemy.
+- **Determination** : General purpose defense. Reduces both mental and physical damage.
+- **Perception** : Critical Hit Chance of your attacks.
+- **Reflex** : Reduces Critical Hit Chance of enemy attacks.
+- **Luck** : Affect Critical Hit damage and Escape chance.
 
 ### Physical Damage Formula
 > Physical Damage = (Skill Power/100) x (3 x Strength - (2 x Enemy's Resolve + 1 x Enemy's Determination)) + Skill Power/4
