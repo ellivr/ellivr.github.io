@@ -5,6 +5,7 @@ tag: sgr
 ---
 List of attributes:
 - **Mind** : Affect mental attack you do to the enemy.
+
 - **Strength** : Affect physical attack you do to the enemy.
 - **Vigour** : Affect your maximum Health. 
 - **Endurance** : Affect how many stamina you regenerate per tick.
