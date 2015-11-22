@@ -3,7 +3,7 @@ layout: post
 title: SGR Attributes
 tag: sgr
 ---
-List of attributes:
+Below is the list of attributes in Sentou Gakuen: Revival, there are 10 of them. Everytime you level up you will be given 10 Unspent Attributes which you can distribute those into one of these:
 >  - **Mind** : Affect mental attack you do to the enemy.
 >  - **Strength** : Affect physical attack you do to the enemy.
 >  - **Vigour** : Affect your maximum Health. 
