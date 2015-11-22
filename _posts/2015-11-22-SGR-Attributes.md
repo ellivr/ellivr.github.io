@@ -4,17 +4,16 @@ title: SGR Attributes
 tag: sgr
 ---
 List of attributes:
-
->- **Mind** : Affect mental attack you do to the enemy.
->- **Strength** : Affect physical attack you do to the enemy.
->- **Vigour** : Affect your maximum Health. 
->- **Endurance** : Affect how many stamina you regenerate per tick.
->- **Reasoning** : Affect mental defense. Mental defense reduces mental damage you receive from enemy.
->- **Resolve** : Affect physical defense. Physical defense reduces physical damage you receive from enemy.
->- **Determination** : General purpose defense. Reduces both mental and physical damage.
->- **Perception** : Critical Hit Chance of your attacks.
->- **Reflex** : Reduces Critical Hit Chance of enemy attacks.
->- **Luck** : Affect Critical Hit damage and Escape chance.
+>  - **Mind** : Affect mental attack you do to the enemy.
+>  - **Strength** : Affect physical attack you do to the enemy.
+>  - **Vigour** : Affect your maximum Health. 
+>  - **Endurance** : Affect how many stamina you regenerate per tick.
+>  - **Reasoning** : Affect mental defense. Mental defense reduces mental damage you receive from enemy.
+>  - **Resolve** : Affect physical defense. Physical defense reduces physical damage you receive from enemy.
+>  - **Determination** : General purpose defense. Reduces both mental and physical damage.
+>  - **Perception** : Critical Hit Chance of your attacks.
+>  - **Reflex** : Reduces Critical Hit Chance of enemy attacks.
+>  - **Luck** : Affect Critical Hit damage and Escape chance.
 
 ### Physical Damage Formula
 > Physical Damage = (Skill Power/100) x (3 x Strength - (2 x Enemy's Resolve + 1 x Enemy's Determination)) + Skill Power/4
@@ -48,9 +47,9 @@ Skill power (or just power) determine how badass that skill is. Minimum is 1, an
 
 ### Critical Hit Chance
 Critical hit chance is the probability of *normal damage* replaced with *critical hit damage*. 
-- The bigger the **Perception**, the more chance of crits hitting. 
-- The bigger the **Luck**, more severe damage you deal in your crit. 
-- The bigger the **Reflex**, the less chance of enemy crits hitting you. 
+>- The bigger the **Perception**, the more chance of crits hitting. 
+>- The bigger the **Luck**, more severe damage you deal in your crit. 
+>- The bigger the **Reflex**, the less chance of enemy crits hitting you. 
 
 So
 > Critical Hit Chance of Your Attacks = (Your Perception - Enemy's Reflex)%
@@ -85,21 +84,21 @@ Applies to both combat level and crafting level.
 # SGR: Crafting
 
 Materials nature:
-  - **Paper Scrap** : Mind.
-  - **Twig** : Strength.
-  - **Metal Scrap** : Vigour. 
-  - **Rotten Konjac** : Endurance.
-  - **Screw** : Reasoning.
-  - **Rubber Band** : Resolve.
-  - **Cloth** : Determination.
-  - **Chalk** : Perception.
-  - **Coin** : Reflex.
-  - **Omamori** : Luck.
+>  - **Paper Scrap** : Mind.
+>  - **Twig** : Strength.
+>  - **Metal Scrap** : Vigour. 
+>  - **Rotten Konjac** : Endurance.
+>  - **Screw** : Reasoning.
+>  - **Rubber Band** : Resolve.
+>  - **Cloth** : Determination.
+>  - **Chalk** : Perception.
+>  - **Coin** : Reflex.
+>  - **Omamori** : Luck.
  
 All crafting requres Usable Part(s) based on total attributes it holds. 1 Usable Part requred per 5 attributes, the amount is ceil'd. For example, 
-- Crafting +5 Strength Equiment will need 1 Usable Part
-- Crafting +6 Strength Equipment will need 2 Usable Part
-- Crafting +10 Strength Equipment will need 2 Usable Part
+>- Crafting +5 Strength Equiment will need 1 Usable Part
+>- Crafting +6 Strength Equipment will need 2 Usable Part
+>- Crafting +10 Strength Equipment will need 2 Usable Part
  
 **Craft**, will grants 100% Crafting EXP + Item if successfull.
 **Practice**, will grants 200% Crafting EXP and no item if successfull.
@@ -114,4 +113,3 @@ All crafting requres Usable Part(s) based on total attributes it holds. 1 Usable
        return ((craftinglevel - itemAttributes.Sum()) * 10) + 50;
     }
 ```
-
