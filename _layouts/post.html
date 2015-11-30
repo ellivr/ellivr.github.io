@@ -10,7 +10,8 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%B %e, %Y" }}<br>
+    Tag:  <a href="{{ site.baseurl }}/{{ page.tag }}" >{{ page.tag }}</a>
   </div>
 
   {% include disqus.html %}
